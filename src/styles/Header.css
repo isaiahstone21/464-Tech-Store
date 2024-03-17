@@ -1,0 +1,45 @@
+.header {
+  position: fixed; /* Keep the navbar fixed at the top of the screen */
+  top: 0; /* Align the top edge of the navbar with the top edge of the viewport */
+  left: 0; /* Align the left edge of the navbar with the left edge of the viewport */
+  width: 100%; /* Ensure the navbar spans the full width of the viewport */
+  background-color: #000; /* Black background */
+  padding: 10px 20px; /* Some padding */
+  z-index: 1000; /* Ensure the navbar sits on top of other content */
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  color: white; /* White text color */
+  text-decoration: none;
+  font-size: 24px; /* Larger font size for brand */
+  padding-right: 20px; /* Optional: adds some space between brand and nav */
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; /* Center navbar links horizontally */
+  align-items: center; /* Center navbar items vertically */
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white; /* White text color */
+  padding: 10px 20px; /* Some padding */
+  margin: 0 10px; /* Space between links */
+}
+
+.navbar a:hover {
+  background-color: #ccc;
+}
+
+.brand:hover {
+  background-color: #ccc; /* Change color on hover, same as navbar links */
+  cursor: pointer; /* Changes the mouse cursor to a pointer to indicate it's clickable */
+}
