@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/ProductCard.css'; // Path might vary based on your folder structure
+import '../styles/ProductCard.css';
 
 interface ProductCardProps {
     name: string;
@@ -18,6 +18,9 @@ interface ProductCardProps {
           <p className="product-manufacturer">{manufacturer}</p>
           <p className="product-description">{description}</p>
           <p className="product-price">${price}</p>
+          <div className="button-container">
+            <button className="buy-button">Buy</button>
+          </div>
         </div>
       </div>
     );
