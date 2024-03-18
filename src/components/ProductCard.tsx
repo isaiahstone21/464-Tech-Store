@@ -18,9 +18,7 @@ interface ProductCardProps {
           <p className="product-manufacturer">{manufacturer}</p>
           <p className="product-description">{description}</p>
           <p className="product-price">${price}</p>
-          <div className="button-container">
-            <button className="buy-button">Buy</button>
-          </div>
+          <button className="buy-button">Buy</button>
         </div>
       </div>
     );
